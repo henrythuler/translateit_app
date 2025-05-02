@@ -55,12 +55,6 @@ Export your OpenAI API key in the terminal:
 export OPENAI_API_KEY=sk-your-openai-api-key-here
 ```
 
-If you don't have an OpenAI API Key, you can use this one for testing:
-
-```
-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
-```
-
 Verify:
 
 ```bash
