@@ -19,7 +19,7 @@ TranslateIt is an application designed for managing translators and documents, w
 - **Database:** PostgreSQL 15
 - **AI Integration:** OpenAI API (gpt-3.5-turbo) for locale generation
 - **Containerization:** Docker, Docker Compose
-- **Repository Structure:** Unified Git repository with submodules (`translate_api` for backend, `translate_frontend` for frontend)
+- **Repository Structure:** Unified Git repository with submodules (`translateit_api` for backend, `translateit_frontend` for frontend)
 
 ## Project Setup
 
@@ -41,7 +41,7 @@ cd translateit_app
 
 #### Initialize Submodules
 
-The backend (`translate_api`) and frontend (`translate_frontend`) are Git submodules. Clone them:
+The backend (`translateit_api`) and frontend (`translateit_frontend`) are Git submodules. Clone them:
 
 ```bash
 git submodule update --init --recursive
@@ -50,8 +50,8 @@ git submodule update --init --recursive
 #### Verify:
 
 ```bash
-ls translate_api       # Should show Dockerfile, pom.xml, src/
-ls translate_frontend  # Should show Dockerfile, package.json, src/
+ls translateit_api       # Should show Dockerfile, pom.xml, src/
+ls translateit_frontend  # Should show Dockerfile, package.json, src/
 ```
 
 #### Set OpenAI API Key
@@ -109,7 +109,7 @@ docker-compose down
 
 ### Submodule Issues
 
-If `translate_api` or `translate_frontend` is empty:
+If `translateit_api` or `translateit_frontend` is empty:
 
 ```bash
 git submodule update --init --recursive
