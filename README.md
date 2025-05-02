@@ -47,13 +47,6 @@ The backend (`translateit_api`) and frontend (`translateit_frontend`) are Git su
 git submodule update --init --recursive
 ```
 
-#### Verify:
-
-```bash
-ls translateit_api       # Should show Dockerfile, pom.xml, src/
-ls translateit_frontend  # Should show Dockerfile, package.json, src/
-```
-
 #### Set OpenAI API Key
 
 Export your OpenAI API key in the terminal:
