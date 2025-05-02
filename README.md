@@ -69,7 +69,7 @@ echo $OPENAI_API_KEY  # Should display your key
 
 #### Run Docker Compose
 
-Start the PostgreSQL database, backend, and frontend:
+Start the PostgreSQL database, backend, and frontend (Make sure that Docker Daemon is running):
 
 ```bash
 docker-compose up -d --build
