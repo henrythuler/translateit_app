@@ -1,0 +1,6 @@
+[submodule "translateit_api"]
+	path = translateit_api
+	url = git@github.com:henrythuler/translateit_api.git
+[submodule "translateit_frontend"]
+	path = translateit_frontend
+	url = git@github.com:henrythuler/translateit_frontend.git
