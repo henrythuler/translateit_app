@@ -1,5 +1,13 @@
 # TranslateIt App
 
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Project Setup](#project-setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation and Setup](#installation-and-setup)
+- [Testing the Application](#testing-the-application)
+- [Troubleshooting](#troubleshooting)
+
 ## About the Project
 
 TranslateIt is an application designed for managing translators and documents, with automatic language locale detection for uploaded documents using OpenAI’s API. Users can upload CSV files containing document details, and the application infers the locale (en-US, es-ES) for documents with missing locale information. The app has a backend API for CRUD operations, a frontend for user interaction, and a PostgreSQL database for persisting data.
